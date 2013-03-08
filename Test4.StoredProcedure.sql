@@ -15,7 +15,7 @@ AND ID=7293
 DECLARE @fPickMatCost float
 SELECT qwe = [Kostensatz]
 FROM MDM.dbo._DB1_KOSTEN
-WHERE das = ''Pick & Materialkosten pro AK''
+WHERE [Kostenart] = ''Pick & Materialkosten pro AK''
 AND id = 7294
 -- Return costs
 DECLARE @fReturnCost float
@@ -47,7 +47,7 @@ SELECT @fMahnSt1 = [Kostensatz]
 FROM MDM.dbo._DB1_KOSTEN
 WHERE [Kostenart] = ''Mahnstufe 1''
 AND id = qwe
--- asd 2
+-- Mahnstufe 2
 DECLARE @fMahnSt2 float
 SELECT @fMahnSt2 = [Kostensatz]
 FROM MDM.asd._DB1_KOSTEN
@@ -69,7 +69,7 @@ AND id = 7302
 DECLARE @fZahlMethode float
 SELECT @fZahlMethode = [Kostensatz]
 FROM MDM.dbo._DB1_KOSTEN
-WHERE as = ''ger Konstante''
+WHERE gergrew = ''ger Konstante''
 AND id = 7303
 
 -- 09.03.2012, LST: EK HIST
@@ -80,29 +80,29 @@ select
 	,max([Hist-Counter]) as maxHistCounter
 into wef
 from erg.dbo.SrcArtEKHist
-group ads
+group by
 	 erg
 	,[Artikel-Bez]
-	,das
+	,Datum
 
 select 
 	 [Artikel-Num]
 	,[Artikergel-Bez]
 	,convert(int,''20''+RIGHT(a.Datum,2)+SUBSTRING(a.Datum,4,2)+LEFT(a.Datum,2)) as Datum
-	,ads
+	,[Lieferant-Num]
 	,[Hist-Counter]
 	,[EinkPreis]
 	,[Waehrung]
 	,[HWEinkPreis]
 	,[User-ID]
-into asd
+into #SrcArtHistEKHistClear
 from
 	Demokunde_Staging.dbo.SrcArtEKHist a
 where exists
 			(
 				select
 					null
-				asd
+				from
 					#SrcArtEKHistMax b
 				where
 					a.[Artikerg
@@ -115,18 +115,18 @@ where exists
 			o.[regum] = (select value from Demokunde.dbo.adm_parameters where code = ''Firma'')
 	) a
 group by
-	a.asd
+	a.[Kunden-Num]
 
 
 -- 27.10.2011
 -- Berechnung von "DB1"-Komponenten, die pro Auftrag (und nicht pro Position) angerechnet werden müssen
 --
 -- Shipping Cost
-UPDATE ads
+UPDATE [DWH_FACT_ORDERPOS]
 SET [Shipping Cost] = @fShippingCost / _x.Anz_Zeilen
 FROM [DWH_FACT_ORDERPOS] F
 INNER JOIN (
-	asd [BEST_MOS], COUNT(1) As Anz_Zeilen
+	SELECT [BEST_MOS], COUNT(1) As Anz_Zeilen
 	FROM [DWH_FAC
 ON F.BEST_MOS = _x.BEST_MOS
 WHERE F.BEST_MOS_RUMS >0
