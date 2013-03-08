@@ -1,5 +1,11 @@
+<<<<<<< HEAD
+K1
+		(Wichtige Änderung für beide
+			select
+=======
 K5
 		Still und heimlich entwickeln, ein bisschen dies ein bisschen das
+>>>>>>> origin/K5_master
 				null
 			from 
 				Demokunde_staging.dbo.[srcKunGutschein] kg 
