@@ -1,5 +1,4 @@
-K3
-hier werden viele Änderungen gemacht
+K2
 GO Bonjour BAHNS
 SET QUOTED_IDENTIFIER ON
 GO Hallo
