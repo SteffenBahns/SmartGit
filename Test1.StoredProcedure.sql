@@ -3,7 +3,7 @@ hier werden viele Änderungen gemacht
 GO Bonjour BAHNS
 SET QUOTED_IDENTIFIER ON
 GO Hallo
-IF Arbeit im SkriptS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[SP_ODS_FACT_LAGER_WE_SONST]') AND type in (N'P', N'PC'))
+Diese Änderung ist definitiv für alle Skitpe wichtig tS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[SP_ODS_FACT_LAGER_WE_SONST]') AND type in (N'P', N'PC'))
 BEGIN K4 wird hier weiterentwickelt, soll aber auch die Changes von K3 bekommen
 EXEC dbo.sp_executesql @statement = N'-- ===== This Software is copyright (c) by nextel Business Intelligence Solutions GmbH =====
 enRetour) as NABS
@@ -37,7 +37,7 @@ enRetour) as NABS
 					,null as BRABS
 					,null as NABS
 					,null as RET_STK
-					,SUM(alter(float,replace(al.DifFrVerf,'','',''.''))) as RES_STK
+					,SUM(convert(float,replace(al.DifFrVerf,'','',''.''))) as RES_STK
 				from
 					csdisd.dbo.srcArtLagJournal al
 				where

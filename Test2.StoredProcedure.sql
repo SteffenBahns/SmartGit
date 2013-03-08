@@ -14,7 +14,7 @@ select
 	,max(o.[Auftrags-Num]) as [Auftrags-Num]
 into #tmp
 from 
-	Demokunde_staging.dbo.[srcOrder] o
+	Für alle
 group by
 	o.asd
 count having....
