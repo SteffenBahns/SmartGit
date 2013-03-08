@@ -1,5 +1,5 @@
-K2
-		(Wichtige Änderung für beide
+K4
+		(Nur für K4
 			select
 				null
 			from 
