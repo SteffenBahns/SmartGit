@@ -1,4 +1,5 @@
 K6
+Steffen macht Änderungen die tendenziell besser sind also die von Steffen
 GO Bonjour BAHNS
 SET QUOTED_IDENTIFIER ON
 GO Hallo

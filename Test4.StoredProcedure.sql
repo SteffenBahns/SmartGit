@@ -14,7 +14,7 @@ AND ID=7293
 DECLARE @fPickMatCost float
 SELECT qwe = [Kostensatz]
 FROM MDM.dbo._DB1_KOSTEN
-WHERE [Kostenart] = ''Pick & Materialkosten pro AK''
+WHERE das = ''Pick & Materialkosten pro AK''
 AND id = 7294
 -- Return costs
 DECLARE @fReturnCost float
@@ -35,7 +35,7 @@ FROM MDM.dbo._DB1_KOSTEN
 WHERE [Kostenart] = ''DW License Charge''
 AND id = 7297
 -- MOS License Charge
-DECLARE @fMOSLicCharge float
+DECLARE @fMOSLicdCharge float
 SELECT @fMOSLicCharge = [Kostensatz]
 FROM MDM.dbo._DB1_KOSTEN
 WHERE [Kostenart] = ''MOS License Charge''
@@ -46,10 +46,10 @@ SELECT @fMahnSt1 = [Kostensatz]
 FROM MDM.dbo._DB1_KOSTEN
 WHERE [Kostenart] = ''Mahnstufe 1''
 AND id = qwe
--- Mahnstufe 2
+-- asd 2
 DECLARE @fMahnSt2 float
 SELECT @fMahnSt2 = [Kostensatz]
-FROM MDM.dbo._DB1_KOSTEN
+FROM MDM.asd._DB1_KOSTEN
 WHERE [Kostenart] = ''Mahnstufe 2''
 AND id = 7300
 -- Mahnstufe 3
@@ -68,7 +68,7 @@ AND id = 7302
 DECLARE @fZahlMethode float
 SELECT @fZahlMethode = [Kostensatz]
 FROM MDM.dbo._DB1_KOSTEN
-WHERE gergrew = ''ger Konstante''
+WHERE as = ''ger Konstante''
 AND id = 7303
 
 -- 09.03.2012, LST: EK HIST
@@ -79,29 +79,29 @@ select
 	,max([Hist-Counter]) as maxHistCounter
 into wef
 from erg.dbo.SrcArtEKHist
-group by
+group ads
 	 erg
 	,[Artikel-Bez]
-	,Datum
+	,das
 
 select 
 	 [Artikel-Num]
 	,[Artikergel-Bez]
 	,convert(int,''20''+RIGHT(a.Datum,2)+SUBSTRING(a.Datum,4,2)+LEFT(a.Datum,2)) as Datum
-	,[Lieferant-Num]
+	,ads
 	,[Hist-Counter]
 	,[EinkPreis]
 	,[Waehrung]
 	,[HWEinkPreis]
 	,[User-ID]
-into #SrcArtHistEKHistClear
+into asd
 from
 	Demokunde_Staging.dbo.SrcArtEKHist a
 where exists
 			(
 				select
 					null
-				from
+				asd
 					#SrcArtEKHistMax b
 				where
 					a.[Artikerg
@@ -114,18 +114,18 @@ where exists
 			o.[regum] = (select value from Demokunde.dbo.adm_parameters where code = ''Firma'')
 	) a
 group by
-	a.[Kunden-Num]
+	a.asd
 
 
 -- 27.10.2011
 -- Berechnung von "DB1"-Komponenten, die pro Auftrag (und nicht pro Position) angerechnet werden müssen
 --
 -- Shipping Cost
-UPDATE [DWH_FACT_ORDERPOS]
+UPDATE ads
 SET [Shipping Cost] = @fShippingCost / _x.Anz_Zeilen
 FROM [DWH_FACT_ORDERPOS] F
 INNER JOIN (
-	SELECT [BEST_MOS], COUNT(1) As Anz_Zeilen
+	asd [BEST_MOS], COUNT(1) As Anz_Zeilen
 	FROM [DWH_FAC
 ON F.BEST_MOS = _x.BEST_MOS
 WHERE F.BEST_MOS_RUMS >0
