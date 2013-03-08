@@ -1,4 +1,4 @@
-Kunde 1
+K2
 GO Bonjour Steffen
 SET QUOTED_IDENTIFIER ON
 GO Hallo
