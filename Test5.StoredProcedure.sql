@@ -1,4 +1,4 @@
-K2
+K6
 
 Apfel
 DECLARE @fShippingCost float
@@ -23,4 +23,4 @@ WHERE Cost = ''Return Mailing''
 AND id = 7296
 -- DW License Charge
 DECLARE @fDWLicCharge float
-S
+Eine wichtige Änderung für K 6 ansonsten kann gerne gemerged werden
