@@ -1,8 +1,9 @@
-K2
+K6
+Hier mussten schnell ein paar Änderungen gemacht werden die nicht auf Steffen warten konnten
 GO Bonjour BAHNS
 SET QUOTED_IDENTIFIER ON
-GO Hallo
-IF Arbeit im SkriptS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[SP_ODS_FACT_LAGER_WE_SONST]') AND type in (N'P', N'PC'))
+GO Mohoooin
+Diese �nderung ist definitiv f�r alle Skitpe wichtig tS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[SP_ODS_FACT_LAGER_WE_SONST]') AND type in (N'P', N'PC'))
 BEGIN
 EXEC dbo.sp_executesql @statement = N'-- ===== This Software is copyright (c) by nextel Business Intelligence Solutions GmbH =====
 enRetour) as NABS
