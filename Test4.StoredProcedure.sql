@@ -1,4 +1,4 @@
-K2
+Kunde 1
 MOIN
 
 -- 26.10.2011: für die Berechnung von DB1 müssen

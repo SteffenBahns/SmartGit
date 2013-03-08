@@ -1,4 +1,4 @@
-K2
+t''
 
 Apfel
 DECLARE @fShippingCost float
