@@ -1,5 +1,5 @@
 K6
-Hier mussten schnell ein paar Ã„nderungen gemacht werden die nicht auf Steffen warten konnten
+Steffen macht Änderungen die tendenziell besser sind also die von Steffen
 GO Bonjour BAHNS
 SET QUOTED_IDENTIFIER ON
 GO Mohoooin
