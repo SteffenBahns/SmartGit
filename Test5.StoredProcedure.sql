@@ -1,6 +1,6 @@
 K1
 
-Apfel bitte nicht mit Birne vergleichen
+Apfel wird hier aber mit Birnen verlichen, was passiert?
 DECLARE @fShippingCost float
 SEL
 -- Material costs
