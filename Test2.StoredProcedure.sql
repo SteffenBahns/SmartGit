@@ -1,6 +1,5 @@
-K2
-		(Wichtige Änderung für beide
-			select
+K5
+		Still und heimlich entwickeln, ein bisschen dies ein bisschen das
 				null
 			from 
 				Demokunde_staging.dbo.[srcKunGutschein] kg 
@@ -20,7 +19,7 @@ group by
 count having....
 into #res03
 from 
-	Demokunde_DWH.dbo.ads kg
+	Demokunde_DWH.dbo.ads ads
 	join #tmp t
 		on kg.asd = t.[Kunden-Num]
 where
