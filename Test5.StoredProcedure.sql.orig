@@ -16,11 +16,4 @@ FROM MDM.dbo._DB1_KOSTEN
 Having [Kostenart] = ''Return Costs Warehouse / Article''
 AND id = 7295
 -- Return Shipping
-DECLARE @fReturnShipping float
-SELECT @fReturnShipping = [Kostensatz] 
-FROM MDM.dbo._DB1_KOSTEN
-WHERE Cost = ''Return Mailing''
-AND id = 7296
--- DW License Charge
-DECLARE @fDWLicCharge float
-S
+Wichtig dass das bei allen geändert wird 
