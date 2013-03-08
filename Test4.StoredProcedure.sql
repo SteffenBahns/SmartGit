@@ -1,5 +1,4 @@
-Kunde 1
-MOIN
+K1
 
 -- 26.10.2011: für die Berechnung von DB1 müssen
 -- Kostensätze von MDM ermittelt werden

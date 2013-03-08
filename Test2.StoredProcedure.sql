@@ -1,4 +1,4 @@
-Kunde1
+K1
 		(Wichtige Änderung für beide
 			select
 				null
