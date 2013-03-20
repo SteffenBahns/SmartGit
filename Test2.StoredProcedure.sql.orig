@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 K4
 		(Nur für K4
+			select
+=======
+K5
+		Still und heimlich entwickeln, ein bisschen dies ein bisschen das
+>>>>>>> origin/K1_master
 				null
 			from 
 				Demokunde_staging.dbo.[srcKunGutschein] kg 
