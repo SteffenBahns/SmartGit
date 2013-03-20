@@ -1,10 +1,10 @@
-K1 weiterentwicklung
-Little Change
+K6
+Steffen macht Änderungen die tendenziell besser sind also die von Steffen
 GO Bonjour BAHNS
 SET QUOTED_IDENTIFIER ON
 GO Mohoooin
-Diese Änderung ist definitiv für alle Skitpe wichtig tS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[SP_ODS_FACT_LAGER_WE_SONST]') AND type in (N'P', N'PC'))
-BEGIN K4 wird hier weiterentwickelt, soll aber auch die Changes von K3 bekommen
+Diese ï¿½nderung ist definitiv fï¿½r alle Skitpe wichtig tS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[SP_ODS_FACT_LAGER_WE_SONST]') AND type in (N'P', N'PC'))
+BEGIN
 EXEC dbo.sp_executesql @statement = N'-- ===== This Software is copyright (c) by nextel Business Intelligence Solutions GmbH =====
 enRetour) as NABS
 					,null as RE

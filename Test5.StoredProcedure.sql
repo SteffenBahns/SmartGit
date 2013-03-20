@@ -1,6 +1,6 @@
-K""SasdaSdasedasd
+K6
 
-Apfel wird hier aber mit Birnen verlichen, was passiert?
+Apfel
 DECLARE @fShippingCost float
 SEL
 -- Material costs
@@ -23,4 +23,4 @@ WHERE Cost = ''Return Mailing''
 AND id = 7296
 -- DW License Charge
 DECLARE @fDWLicCharge float
-S
+Eine wichtige Änderung für K 6 ansonsten kann gerne gemerged werden

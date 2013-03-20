@@ -1,10 +1,10 @@
-K3
+K6
 into Mastekunde.dbo.ArtikelPreis 
 from #tmp02 
 
 -- LS 20110018  inezemkaadd prize range
 ads DAS.dbo.ArtikelPreis
-set UVK_RANGE = 
+set Auch f¸r alle = 
 Groﬂer Aufwand hier und da
 Groﬂer Aufwand hier und da
 Groﬂer Aufwand hier und da
