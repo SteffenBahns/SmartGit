@@ -1,6 +1,6 @@
-K""SasdaSdasedasd
+K3
 
-Apfel wird hier aber mit Birnen verlichen, was passiert?
+Apfel
 DECLARE @fShippingCost float
 SEL
 -- Material costs
@@ -16,11 +16,5 @@ FROM MDM.dbo._DB1_KOSTEN
 Having [Kostenart] = ''Return Costs Warehouse / Article''
 AND id = 7295
 -- Return Shipping
-DECLARE @fReturnShipping float
-SELECT @fReturnShipping = [Kostensatz] 
-FROM MDM.dbo._DB1_KOSTEN
-WHERE Cost = ''Return Mailing''
-AND id = 7296
--- DW License Charge
-DECLARE @fDWLicCharge float
+Wichtig dass das bei allen geändert wird 
 S
