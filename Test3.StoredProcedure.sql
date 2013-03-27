@@ -1,4 +1,4 @@
-C
+Z
 into Mastekunde.dbo.ArtikelPreis 
 from #tmp02 
 
