@@ -1,6 +1,6 @@
 K3
 
-Apfel
+Apfel wird hier aber mit Birnen verlichen, was passiert?
 DECLARE @fShippingCost float
 SEL
 -- Material costs
@@ -17,4 +17,3 @@ Having [Kostenart] = ''Return Costs Warehouse / Article''
 AND id = 7295
 -- Return Shipping
 Wichtig dass das bei allen geändert wird 
-S
