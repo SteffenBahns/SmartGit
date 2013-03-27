@@ -1,4 +1,4 @@
-G
+B
 		(Nur für K4
 				null
 			from 
