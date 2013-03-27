@@ -1,4 +1,4 @@
-Z
+WWW
 
 Apfel
 DECLARE @fShippingCost float
@@ -16,5 +16,5 @@ FROM MDM.dbo._DB1_KOSTEN
 Having [Kostenart] = ''Return Costs Warehouse / Article''
 AND id = 7295
 -- Return Shipping
-Wichtig dass das bei allen geändert wird 
+Aber hier 
 S

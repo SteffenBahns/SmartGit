@@ -1,4 +1,4 @@
-X
+WWW
 
 MOIN
 
@@ -19,8 +19,7 @@ WHERE [Kostenart] = ''Pick & Materialkosten pro AK''
 AND id = 7294
 -- Return costs
 DECLARE @fReturnCost float
-SELECT @fReturnCost = weq
-FROM MDM.dbo._DB1_KOSTEN
+Aber hier
 WHERE [Kostenart] = ''Return Costs Warehouse / Article''
 AND id = 7295
 -- Return Shipping
