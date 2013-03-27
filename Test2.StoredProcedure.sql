@@ -9,7 +9,7 @@ K4
 
 -- temp res03
 select 
-	o.Name
+	Hallo
 	,max(o.[Auftrags-Num]) as [Auftrags-Num]
 into #tmp
 from 
