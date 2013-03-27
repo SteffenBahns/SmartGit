@@ -20,7 +20,7 @@ Groﬂer Aufwand hier und da
 Groﬂer Aufwand hier und da
 Groﬂer Aufwand hier und da
 Groﬂer Aufwand hier und da
-Groﬂer Aufwand hier und da
+Aber hier
 Groﬂer Aufwand hier und da
 Groﬂer Aufwand hier und da
 Groﬂer Aufwand hier und da

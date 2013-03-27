@@ -15,8 +15,7 @@ into #tmp
 from 
 	Für alle
 group by
-	o.asd
-count having....
+	Aber hier
 into #res03
 from 
 	Demokunde_DWH.dbo.ads ads
