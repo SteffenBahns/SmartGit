@@ -1,4 +1,4 @@
-x
+LLL
 into Mastekunde.dbo.ArtikelPreis 
 from #tmp02 
 
