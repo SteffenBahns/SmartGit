@@ -1,4 +1,4 @@
-K2
+A
 GO Bonjour Steffen
 SET QUOTED_IDENTIFIER ON
 GO Mohoooin
